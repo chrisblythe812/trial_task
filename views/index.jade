@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	title= title
+	section.content
+		p Please enter a Linkedin path
+		form(name="input", action="/linkedin", method="get")
+			key Path  
+				input(type="text", name="item[path]")				
+				input(type="submit", value="Submit")
