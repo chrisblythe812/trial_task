@@ -42,6 +42,6 @@ Linkedin.prototype = {
 			});				
 		}, true);
 		
-		res.redirect('/';)
+		res.redirect('/');
 	}
 }
